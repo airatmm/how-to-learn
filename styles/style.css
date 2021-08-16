@@ -14,16 +14,118 @@
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  position: relative;
+  background-color: #F2F2F2;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 183px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo__place_header {
+  background-image: url(../images/logo_place_header.svg);
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  left: 64px;
+  position: relative;
+  width: 730px;
+  z-index: 2;
+  margin: 0;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  z-index: 12;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  background-image: url(../images/header-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
+
+.description {
+  margin-top: 100px;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.two-columns__brief {
+  color: #2f80ed;
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  margin: 0px;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
 
 .table__cell_theme_dark {
   width: 200px;
