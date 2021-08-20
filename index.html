@@ -13,6 +13,7 @@
 <body>
   <div class="page">
     <header class="header">
+      <!--Логотип переиспользуется в футере-->
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
@@ -45,6 +46,7 @@
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
+        <!--Таблица переиспользуется в Кауфмане как и выше тайтл и сабтайтл-->
         <div class="table">
           <div class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -91,8 +93,10 @@
       </section>
 
       <section class="kaufman">
+        <!--Тайтл и сабтайтл из digits c модификатором theme_dark-->
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
+        <!---Таблица из digits с модификатором theme_dark-->
         <div class="table table_theme_dark">
           <div class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -135,22 +139,44 @@
             <h3 class="table__heading table__heading_theme_dark">10</h3>
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
+        </div>
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
-      <div class="footer__column">
-        <div class="footer__column_content_copyright">
+      <div class="footer__columns">
+        <div class="footer__column footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
           <div class="footer__author">&copy; Айрат Мухаметшин</div>
         </div>
-        <div class="footer__column_content_info">
-          <div class="footer__column-heading"></div>
-          <div class="footer__column-links"></div>
-        </div>
-        <div class="footer__column_content_social"></div>
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О практикуме</h3>
+          <ul class="footer__column-links">
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Главная</a></li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Концепция</a></li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Наставники</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <ul class="footer__column-links">
+            <!--Добавил класс footer__column-list-item чтоб li не был пустой-->
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
+                  class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Facebook">Facebook</a>
+
+            </li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
+                  class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a>
+
+            </li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
+                  class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Instagram">Instagram</a>
+
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
-  </div>
   </div>
 </body>
 
