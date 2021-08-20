@@ -119,11 +119,11 @@
   font-size: 24px;
   font-weight: normal;
   line-height: 34px;
-  margin-top: 30px;
+  margin: 30px 0 0;
 }
 
 .two-columns__paragraph:first-of-type {
-  margin-top: 0;
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -150,8 +150,7 @@
 .section-subtitle {
   width: 60%;
   text-align: center;
-  padding-top: 20px;
-  margin: 0;
+  margin: 20px 0 0;
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -249,7 +248,7 @@
 
 .section-title_theme_dark {
   color: white;
-  padding-top: 90px;
+  margin: 90px 0 0;
   position: relative;
   z-index: 3;
 }
@@ -330,9 +329,8 @@
 }
 
 .footer__column-heading {
-  margin: 0;
   color: white;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -340,7 +338,7 @@
 
 .footer__column-links {
   list-style: none;
-  margin: 0 0 16px 0;
+  margin: 0 0 16px;
   padding: 0;
 }
 
