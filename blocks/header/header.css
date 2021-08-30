@@ -5,4 +5,5 @@
     /* выше установили ограничения для секции */
     position: relative;
     background-color: #F2F2F2;
+    overflow: hidden;
 }
