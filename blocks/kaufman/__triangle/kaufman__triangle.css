@@ -8,4 +8,5 @@
     position: absolute;
     right: -210px;
     z-index: 0;
+    transform: none;
 }

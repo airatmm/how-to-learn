@@ -6,3 +6,9 @@
         transform: rotate(360deg);
     }
 }
+
+.rotation {
+    animation: rotation 20s linear infinite;
+    transform: rotate(-15deg);
+    /*Не знаю нужен ли тут трансформ, но в брифе квадрат повернут*/
+}
