@@ -84,12 +84,10 @@
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
         <!--Вроде как и не семантично, но с другой стороны делать список из двух li + еще к нему доп класс-->
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU"
-            title="YouTube video player"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY"
-            title="YouTube video player"
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
         </div>
@@ -113,7 +111,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link" href="#">Подробнее &rarr;</a>
+        <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
         <img class="feynman__main-illustration" src="./images/feynman.png" alt="Изображение: Ричард Фейнман">
       </section>
 
@@ -163,17 +161,17 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему
-            миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду
-            смогут
-            получить навыки и знания, которые приносят успех в школе, карьере и жизни.
-          </p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по
+            всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся
+            повсюду
+            смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg"
               alt="Изображение: Книга. Салман Хан: Весь мир - школа.">
-            <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
+            <a class="khan__buy-link" href="#" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -257,25 +255,31 @@
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О практикуме</h3>
           <ul class="footer__column-links">
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Главная</a></li>
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Концепция</a></li>
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Наставники</a></li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Главная</a>
+            </li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Концепция</a>
+            </li>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="#">Наставники</a>
+            </li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <!--Добавил класс footer__column-list-item чтоб li не был пустой-->
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
-                  class="footer__social-icon" src="./images/facebook_color_white.svg" alt="Фэйсбук">Facebook</a>
+            <li class="footer__column-list-item"><a class="footer__column-link"
+                href="https://www.facebook.com/yandex.practicum" target="_blank"><img class="footer__social-icon"
+                  src="./images/facebook_color_white.svg" alt="Фэйсбук">Facebook</a>
 
             </li>
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
-                  class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВКонтакте">ВКонтакте</a>
+            <li class="footer__column-list-item"><a class="footer__column-link" href="https://vk.com/yandex.practicum"
+                target="_blank"><img class="footer__social-icon" src="./images/vk_color_white.svg"
+                  alt="ВКонтакте">ВКонтакте</a>
 
             </li>
-            <li class="footer__column-list-item"><a class="footer__column-link" href="#"><img
-                  class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм">Instagram</a>
+            <li class="footer__column-list-item"><a class="footer__column-link"
+                href="https://www.instagram.com/yndx.practicum" target="_blank"><img class="footer__social-icon"
+                  src="./images/instagram_color_white.svg" alt="Инстаграм">Instagram</a>
 
             </li>
           </ul>
